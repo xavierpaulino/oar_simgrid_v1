@@ -169,7 +169,7 @@ The experiment therefore comprises:
 30 windows × 5 load levels × 4 schedulers = 600 runs
 ```
 
-The execution script compiles the simulator, organizes the generated results automatically, and stores the results for each window in the `raw_experiments` directory. The replicate windows are stored in the `data`directory. 
+The execution script compiles the simulator, organizes the generated results automatically, and stores the results for each window in the `raw_experiments` directory. The replicate windows are stored inside the `data`directory. 
 
 ---
 

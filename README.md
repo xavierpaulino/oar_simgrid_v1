@@ -125,11 +125,10 @@ chmod +x create_project_oar_simgrid_v1.sh
 The script creates the complete project structure, including the simulator source code, heterogeneous platform, workload preparation tools, validation scripts, and experimental execution scripts.
 
 Enter the generated project directory:
-**Place the `data` folder and its contents inside `oar_simgrid_schedulers_v1`.**
 ```bash
 cd "$PROJECT_ROOT/oar_simgrid_schedulers_v1"
 
-Copy the **data** folder and its contents to **oar_simgrid_schedulers_v1**
+Copy the "data" folder and its contents to "oar_simgrid_schedulers_v1". If not, the code will download the workload automatically.
 ```
 
 ---

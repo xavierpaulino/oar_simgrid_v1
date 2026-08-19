@@ -127,9 +127,9 @@ The script creates the complete project structure, including the simulator sourc
 Enter the generated project directory:
 ```bash
 cd "$PROJECT_ROOT/oar_simgrid_schedulers_v1"
-
-Copy the "data" folder and its contents to "oar_simgrid_schedulers_v1". If not, the code will download the workload automatically.
 ```
+
+Copy the `data` directory and its contents to the `oar_simgrid_schedulers_v1` directory. Otherwise, the code will download the workload automatically.
 
 ---
 

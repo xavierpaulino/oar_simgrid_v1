@@ -97,7 +97,7 @@ pkg-config --modversion simgrid
 The expected version is:
 
 ```text
-Installed version
+<version>
 ```
 place the projet file ``create_project_oar_simgrid_v1.sh```in the rood directory.
 

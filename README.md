@@ -175,7 +175,7 @@ The execution script compiles the simulator, organizes the generated results aut
 
 ## 5. Output
 
-The main output files include:
+The main output files for each window include:
 
 ```text
 results.csv

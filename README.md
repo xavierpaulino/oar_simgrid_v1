@@ -32,7 +32,7 @@ The following scheduling policies are evaluated under the same workload, platfor
 
 ---
 
-## 1. Installation and Configuration (**SimGrid:** ≥ 3.5).
+## 1. Installation and Configuration (**SimGrid version** ≥ 3.5).
 
 ### 1.1 Create the project root
 

@@ -32,7 +32,7 @@ The following scheduling policies are evaluated under the same workload, platfor
 
 ---
 
-## 1. Installation and Configuration
+## 1. Installation and Configuration (- **SimGrid:** ≥ 3.5).
 
 ### 1.1 Create the project root
 
@@ -104,7 +104,7 @@ At this point, the root directory should contain installation files including:
 
 ```text
 $PROJECT_ROOT/
-├── simgrid-4.1/
+├── simgrid-<version>/
 └── create_project_oar_simgrid_v1.sh
 ```
 
@@ -167,7 +167,7 @@ The experiment therefore comprises:
 30 windows × 5 load levels × 4 schedulers = 600 runs
 ```
 
-The execution script compiles the simulator, organizes the generated results automatically, and stores the results for each window in the `raw_experiments` directory.. The 
+The execution script compiles the simulator, organizes the generated results automatically, and stores the results for each window in the `raw_experiments` directory. The replicate windows are stored in the `data`directory. 
 
 ---
 

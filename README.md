@@ -192,7 +192,7 @@ These files contain the data used to evaluate the scheduling policies in terms o
 
 This repository contains the experimental implementation associated with:
 
-**Simulação Trace-Driven de Políticas de Escalonamento Baseadas no OAR em uma Grade HPC Heterogênea
+**Simulação Trace-Driven de Políticas de Escalonamento Baseadas no OAR em uma Grade HPC Heterogênea <br>
 (Trace-Driven Simulation of OAR-Based Scheduling Policies in a Heterogeneous HPC Grid)**
 
 The paper provides the complete methodology, experimental design, scheduling-policy definitions, and analysis of the results.

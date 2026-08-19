@@ -129,7 +129,7 @@ Enter the generated project directory:
 ```bash
 cd "$PROJECT_ROOT/oar_simgrid_schedulers_v1"
 
-place the `data`folder and its content in oar_simgrid_schedulers_v1
+Copy the **data** folder and its contents to **oar_simgrid_schedulers_v1**
 ```
 
 ---

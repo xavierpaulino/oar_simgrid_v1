@@ -129,7 +129,7 @@ Enter the generated project directory:
 cd "$PROJECT_ROOT/oar_simgrid_schedulers_v1"
 ```
 
-Copy the `data` directory and its contents to the `oar_simgrid_schedulers_v1` directory. Otherwise, the code will download the workload automatically.
+Copy the `data` directory and its contents to the `oar_simgrid_schedulers_v1` directory. Otherwise, the code will download the **workload trace** automatically.
 
 ---
 

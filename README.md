@@ -1,4 +1,5 @@
-# Trace-Driven HPC Scheduling with OAR and SimGrid
+# Simulação Trace-Driven de Políticas de Escalonamento Baseadas no OAR em uma Grade HPC Heterogênea
+## (Trace-Driven Simulation of OAR-Based Scheduling Policies in a Heterogeneous HPC Grid)
 
 This repository provides a **trace-driven simulation environment** for evaluating classical scheduling policies in heterogeneous High-Performance Computing (HPC) grids.
 
@@ -191,6 +192,7 @@ These files contain the data used to evaluate the scheduling policies in terms o
 
 This repository contains the experimental implementation associated with:
 
-**Trace-Driven Simulation of OAR-Based Scheduling Policies in a Heterogeneous HPC Grid**
+**Simulação Trace-Driven de Políticas de Escalonamento Baseadas no OAR em uma Grade HPC Heterogênea
+(Trace-Driven Simulation of OAR-Based Scheduling Policies in a Heterogeneous HPC Grid)**
 
 The paper provides the complete methodology, experimental design, scheduling-policy definitions, and analysis of the results.

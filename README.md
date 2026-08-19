@@ -25,7 +25,7 @@ The following scheduling policies are evaluated under the same workload, platfor
 ## Technologies
 
 * C++17
-* SimGrid 4.1
+* SimGrid <version>
 * Python
 * Bash
 * CMake
@@ -42,9 +42,9 @@ cd ~/oar_simgrid_project
 export PROJECT_ROOT="$PWD"
 ```
 
-### 1.2 Install SimGrid 4.1
+### 1.2 Install SimGrid
 
-Download `simgrid-4.1.tar.gz` from the official SimGrid website:
+Download `simgrid-<version>.tar.gz` from the official SimGrid website:
 
 https://simgrid.org/
 
@@ -52,7 +52,7 @@ Place the archive in `$PROJECT_ROOT`, then extract it:
 
 ```bash
 cd "$PROJECT_ROOT"
-tar -xzf simgrid-4.1.tar.gz
+tar -xzf simgrid-<version>.tar.gz
 ```
 
 Set the local installation directory:
@@ -65,7 +65,7 @@ mkdir -p "$SIMGRID_INSTALL_DIR"
 Configure, build, and install SimGrid:
 
 ```bash
-cd "$PROJECT_ROOT/simgrid-4.1"
+cd "$PROJECT_ROOT/simgrid-<version>"
 mkdir -p build
 cd build
 
@@ -96,14 +96,14 @@ pkg-config --modversion simgrid
 The expected version is:
 
 ```text
-4.1
+Installed version
 ```
+place the projet file ``create_project_oar_simgrid_v1.sh```in the rood directory.
 
-At this point, the root directory should contain:
+At this point, the root directory should contain installation files including:
 
 ```text
 $PROJECT_ROOT/
-├── simgrid/
 ├── simgrid-4.1/
 └── create_project_oar_simgrid_v1.sh
 ```
@@ -167,7 +167,7 @@ The experiment therefore comprises:
 30 windows × 5 load levels × 4 schedulers = 600 runs
 ```
 
-The execution script compiles the simulator and organizes the generated results automatically.
+The execution script compiles the simulator and organizes the generated results automatically, and stores the results of each window in directory ``. The 
 
 ---
 

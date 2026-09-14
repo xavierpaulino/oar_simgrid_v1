@@ -136,7 +136,7 @@ Copy the `data` directory and its contents to the `oar_simgrid_schedulers_v1` di
 
 The experiments use workloads derived from the historical **GWA-T-2 Grid'5000 trace**.
 
-Prepare 30 experimental windows with up to 10,000 jobs using seed 42:
+Prepare 30 experimental windows with 10000 jobs using seed 42:
 
 ```bash
 ./prepare_replicate_windows.sh 10000 30 42

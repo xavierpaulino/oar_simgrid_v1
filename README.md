@@ -99,7 +99,7 @@ The expected version is:
 ```text
 <version>
 ```
-place the projet file ``create_project_oar_simgrid_v1.sh```in the root directory.
+place the projet file ```create_project_oar_simgrid_v1.sh```in the root directory.
 
 At this point, the root directory should contain installation files including:
 
